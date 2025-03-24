@@ -28,7 +28,7 @@ dense_index = pc.Index(name=index_name)
 
 # 🔹 Initialize Gemini API
 api_key_gemini = ""  # Add your Gemini API key
-genai.configure(api_key="AIzaSyDEcOjEkYazhLFFKpMba4-NAgT4FccHopo")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Escalation score modifiers
